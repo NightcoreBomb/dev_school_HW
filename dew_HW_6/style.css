@@ -1,0 +1,316 @@
+body{
+    overflow-x: hidden;
+}
+.flexbox {
+    background-color: #404eed;
+    height: 625px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('e6d57714479874c665b36c7adee76b1d.svg');
+    background-attachment: fixed;
+    background-size: 150% 80%;
+
+}._box2 {
+    display: flex;
+    background-color: #ffffff;
+    height: 887px;
+    justify-content: space-around;
+;
+ }._box3 {
+    display: flex;
+    background-color: #f6f6f6;
+    height: 650px;
+    justify-content: space-around;
+;
+}
+._box4 {
+    display: flex;
+    background-color: #ffffff;
+    height: 650px;
+    justify-content: space-around;
+;
+}
+.main_block{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 530px;
+}
+.main_block img {
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+.end_txt{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: "Montserrat Thin";
+    color: black;
+    background-image: url("a188414ce83f2454b9d71a47c3d95909.svg");
+    background-repeat: no-repeat;
+
+
+}
+
+._box5 {
+    display: flex;
+    background-color: #f6f6f6;
+    height: 1096px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final-text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: 350%;
+    font-family: "Montserrat Thin";
+    color: white;
+    width: 780px
+}
+
+
+._box6 {
+    display: flex;
+    background-color: #f6f6f6;
+    height: 284px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+._box6 a {
+    margin-left: 30px;
+    padding: 10px 20px;
+    font-size: 110%;
+    border-radius: 60px;
+    font-family: "Montserrat Thin";
+    max-width: 810px;
+    max-height: 100px;
+    text-align: center;
+    line-height: 2;
+    text-decoration: none;
+    background-color: #606df3;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+._box6 a:hover {
+    background-color: #7983f5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flexbox picture{
+    top: -500px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.white_but{
+    margin-left: 30px;
+    padding: 10px 20px;
+    font-size: 110%;
+    border-radius: 60px;
+    font-family: "Montserrat Thin";
+    max-width: 810px;
+    max-height: 100px;
+    text-align: center;
+    line-height: 2;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.white_but:hover{
+    color: #5876f5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.black_but{
+    margin-left: 30px;
+    padding: 10px 20px;
+    font-size: 110%;
+    border-radius: 40px;
+    font-family: "Montserrat Thin";
+    max-width: 810px;
+    max-height: 100px;
+    text-align: center;
+    line-height: 2;
+    text-decoration: none;
+    background-color: #24282b;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.black_but:hover{
+    background-color: #313338;
+}
+
+.main_buton {
+    font-family: "Montserrat Thin";
+    font-weight: bold ;
+    font-size: 85%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+
+}
+.main_buton img {
+    order: -1;
+    width: 124px;
+    height: 40px;
+    margin-top: -10px;
+    margin-right: 100px;
+    justify-content: flex-start;
+}
+
+.open_buton {
+    font-family: "Verdana";
+    font-size: 75%;
+
+    margin-top: 20px;
+    margin-left: 160px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.main_text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: 350%;
+    font-family: "Montserrat Thin";
+    color: white;
+    width: 780px
+}
+
+.back_text {
+     margin-top: 40px;
+     font-size: 110%;
+     font-family: "Montserrat Thin";
+     color: white;
+     max-width: 810px;
+     max-height: 100px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     line-height: 2;
+}
+
+.back_text a:hover {
+     color: #404eed;
+
+ }
+
+
+.picture {
+    top: -22%;
+    right: 40%;
+    transition: top 0.5s ease;
+    position: relative;
+}
+.picture2{
+    top: -22%;
+    right: 0%;
+    transition: top 0.5s ease;
+    position: relative;
+}
+
+.the_end{
+    background-color: #23272a;
+    display: flex;
+    padding-top: 80px ;
+    padding-left: 400px;
+    font-size: 80%;
+    font-family: "Montserrat Thin";
+    color: #4265e6;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 2;
+    align-items: flex-start;
+
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.item {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.the_end a{
+    color: white;
+    padding-top: 40px;
+    text-decoration: none;
+}
+.the_end img{
+    width: 24px;
+    height: 16px;
+}
+.the_end i{
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.second_end {
+    background-color: #23272a;
+    display: flex;
+    height: 110px;
+    padding-left: 400px;
+    padding-right: 400px;
+    align-items: center;
+    border-top: 2px solid #5865f2;
+    justify-content: space-between;
+}
+
+.second_end img{
+    width: 124px;
+    height: 40px;
+
+}
+
+.second_end a{
+    padding: 10px 20px;
+    font-size: 80%;
+    border-radius: 40px;
+    font-family: "Montserrat Thin";
+    text-align: center;
+    line-height: 2;
+    text-decoration: none;
+    background-color: #606df3;
+    color: white;
+}
